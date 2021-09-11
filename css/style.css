@@ -606,6 +606,95 @@ body {
     pointer-events: none;
 }
 
+.modal-title {
+    margin-top: 40px;
+    margin-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color)
+}
+ 
+.form {
+    padding: 0 39px 40px 41px;
+}
+
+
+.form-field {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 4px;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+
+    color: var(--main-text-color)
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.form-wrap {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+}
+
+.modal-comment {
+    width: 100%;
+    height: 120px;
+    resize: none;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.form-input::placeholder {
+    padding-left: 42px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-comment::placeholder {
+    padding-left: 16px;
+    padding-top: 12px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.check-icon {
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
+}
+
 /* PORTFOLIO Page */
 /* ----------------PROJECTS-------------------- */
 
