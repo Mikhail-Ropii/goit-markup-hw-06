@@ -422,6 +422,20 @@
               </li>
             </ul>
           </div>
+          <div class="send">
+            <p class="send-title">Подпишитесь на рассылку</p>
+            <div class="send-wrap">
+              <form class="send-form">
+                <input type="email" class="send-input" placeholder="E-mail" />
+              </form>
+              <button type="submit" class="send-btn btn">
+                Подписаться
+                <svg class="send-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -437,7 +451,7 @@
           <label class="form-field">
             <span class="form-label">Имя</span>
             <span class="form-wrap">
-              <input class="form-input" type="text" name="name" placeholder="Сан Саныч" />
+              <input class="form-input" type="text" name="name" />
               <svg class="input-icon" width="12" height="12">
                 <use href="./images/sprite.svg#modal-user"></use>
               </svg>
@@ -446,7 +460,7 @@
           <label class="form-field">
             <span class="form-label">Телефон</span>
             <span class="form-wrap">
-              <input class="form-input" type="tel" name="tel" placeholder="099-999-99-99" />
+              <input class="form-input" type="tel" name="tel" />
               <svg class="input-icon" width="13" height="13">
                 <use href="./images/sprite.svg#modal-tel"></use>
               </svg>
@@ -455,26 +469,28 @@
           <label class="form-field">
             <span class="form-label">Почта</span>
             <span class="form-wrap">
-              <input class="form-input" type="email" name="email" placeholder="mail@gmail.com" />
+              <input class="form-input" type="email" name="email" />
               <svg class="input-icon" width="15" height="12">
                 <use href="./images/sprite.svg#modal-mail"></use>
               </svg>
             </span>
           </label>
-          <label class="form-field">
+          <label class="form-field-comment">
             <span class="form-label">Комментарий</span>
             <textarea name="comment" class="modal-comment" placeholder="Введите текст"></textarea>
           </label>
-          <label class="form-field">
-            <input type="checkbox" name="agree" />
+          <label class="checkbox-item">
+            <input type="checkbox" name="agree" class="checkbox visually-hiden" />
             <span class="check-icon">
-              <svg class="input-icon" width="16" height="15">
+              <svg width="11" height="8">
                 <use href="./images/sprite.svg#modal-check"></use>
               </svg>
             </span>
-            <span class="form-label">Соглашаюсь с рассылкой и принимаю Условия договора</span>
+            <span class="form-label"
+              >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></span
+            >
           </label>
-          <button type="submit" class="submit-btn btn"></button>
+          <button type="submit" class="submit-btn btn">Отправить</button>
         </form>
       </div>
     </div>
