@@ -697,7 +697,6 @@ body {
     letter-spacing: 0.01em;
 
     color: var(--main-text-color);
-    user-select: none;
 }
 
 .form-input {
@@ -796,6 +795,8 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--main-text-color);
+
+    user-select: none;
 }
 
 .policy-link {
