@@ -765,6 +765,9 @@ body {
 
 .checkbox-item {
     display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .check-icon {
@@ -772,7 +775,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 8px;
-    margin-bottom: 30px;
 
     width: 16px;
     height: 15px;
@@ -786,6 +788,18 @@ body {
 .checkbox:checked + .check-icon {
     background-color: var(--accent-color);
     border: none;
+}
+
+.check-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text-color);
+}
+
+.policy-link {
+    color: var(--accent-color);
 }
 
 .submit-btn {
